@@ -1,0 +1,66 @@
+## Kaggle House Price Prediction Project
+
+## Overview
+
+This repository contains the code and analysis for the Kaggle competition on predicting house prices. The goal is to develop a machine learning model that accurately predicts house prices based on provided datasets.
+You can find the problem here: https://www.kaggle.com/competitions/simple-housing-price-prediction
+
+## Problem Statement
+
+Kaggle provided three essential files for this competition:
+1. `train.csv`: Training data containing house features and prices.
+2. `test.csv`: Testing data with features but missing house prices.
+3. `sample_submission.csv`: A sample submission file for the competition.
+
+## Methodology
+
+### 1. Data Exploration and Preprocessing
+- Explore the structure of the provided datasets.
+- Handle missing values, outliers, and any data preprocessing steps.
+
+### 2. Model Training
+#### 2.1 Linear Regression
+- Implement Linear Regression to predict house prices.
+  
+#### 2.2 Random Forest Regressor
+- Train a Random Forest Regressor to capture complex relationships in the data.
+
+#### 2.3 Feature Selection with SelectKBest
+- Utilize the SelectKBest method for feature selection.
+- Train Linear Regression on the selected features.
+
+### 3. Results and Evaluation
+- Evaluate model performance using appropriate metrics (e.g., Mean Squared Error for regression).
+- Compare results between Linear Regression, Random Forest Regressor, and SelectKBest + Linear Regression.
+
+## Usage
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/ser-kostas/kaggle-house-price-prediction.git
+    cd kaggle-house-price-prediction
+    ```
+
+
+2. Run the Jupyter notebooks in the `notebooks/` directory for a step-by-step walkthrough.
+
+## Results
+
+Include visualizations, insights, and any notable observations from the analysis.
+
+## Future Work
+
+- Suggest improvements or extensions that could enhance the predictive model.
+- Identify areas for further exploration or feature engineering.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt).
+
+## Acknowledgments
+
+- Kaggle for providing the dataset and hosting the competition.
+- [Scikit-learn](https://scikit-learn.org/) for machine learning tools.
+
+Feel free to reach out for any questions or collaborations!
